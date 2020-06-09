@@ -1,0 +1,46 @@
+/*:root {
+    --primary-color: #34CB79;
+    --title-color: #322153;
+    --text-color: #6C6C80;
+  }*/
+  
+  * {
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    background: #cfcfcfff;
+    
+   
+    
+  }
+  
+  body, input, button {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+  }
+  /*
+  h1, h2, h3, h4, h5, h6 {
+    color: var(--title-color);
+    font-family: Ubuntu;
+  }*/
+  .header-title h1{
+    font-size: 4.5em;
+    margin-top: 20px;
+    text-align: left;
+    color: #ccccccff;
+    
+  }
+  .header-title p{
+    font-size: 1.8em;
+    margin: 10px 0px 50px 0px;
+    color: #ccccccff;
+  }
+  .container-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
