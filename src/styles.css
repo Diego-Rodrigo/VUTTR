@@ -7,14 +7,15 @@
   * {
     margin: 0;
     padding: 0;
-    
+    box-sizing: border-box;
+    outline: none;
   }
   
   body {
     display: flex;
     justify-content: center;
-    background: #cfcfcfff;
-    
+    background: #c0c0c011;
+  
    
     
   }
@@ -31,13 +32,15 @@
     font-size: 4.5em;
     margin-top: 20px;
     text-align: left;
-    color: #ccccccff;
+    color: #fff;
+    text-shadow: 1px 0 0 #244aa8, -1px 0 0 #244aa8, 0 1px 0 #244aa8, 0 -1px 0 #244aa8;
     
   }
   .header-title p{
-    font-size: 1.8em;
+    font-size: 2em;
     margin: 10px 0px 50px 0px;
-    color: #ccccccff;
+    color: #244aa8;
+    
   }
   .container-header{
     display: flex;

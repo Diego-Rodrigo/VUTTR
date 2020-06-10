@@ -33,20 +33,17 @@ const AddToolForm =() => {
     const [link, setLink] = useState('');
     const [description, setDescription] = useState('');
     const [tags, setTags] = useState(['']);
+    
 
     function openModal() {
         setIsOpen(true);
       }
      
-      function afterOpenModal() {
-        // references are now sync'd and can be accessed.
-       
-      }
-     
-      function closeModal(){
+    function closeModal(){
         setIsOpen(false);
       }
-      async function handleNewTool(){
+      
+async function handleNewTool(){
                         
         const data = {
           title,
@@ -68,8 +65,7 @@ const AddToolForm =() => {
        
         <button className="btn-open-modal" onClick={openModal}>+ Add Tool</button>
         <Modal
-          isOpen={modalIsOpen}
-          onAfterOpen={afterOpenModal}
+          isOpen={modalIsOpen}          
           onRequestClose={closeModal}
           style={customStyles}
           contentLabel="Add new tool"
